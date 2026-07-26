@@ -1,0 +1,41 @@
+import java.util.LinkedList;
+class Sample
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer>list=new LinkedList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.addFirst(5);
+        list.addLast(24);
+        System.out.println("After adding:"+list);
+        System.out.println("First elements:"+list.getFirst());
+        
+        System.out.println("Last elements:"+list.getLast());
+        list.set(2,25);
+        System.out.println("After update:"+list);
+        list.remove();
+        list.removeFirst();
+        list.removeLast();
+        list.remove(1);
+        System.out.println("After removing:"+list);
+        System.out.println("contain 20?"+list.contains(20));
+        System.out.println("indexof 20:"+list.indexOf(20));
+        System.out.println("size of list:"+list.size());
+        System.out.println("is list is EMPTY:"+list.isEmpty());
+        list.clear();
+        System.out.println("After clear:"+list);
+        System.out.println("Is list empty now?"+list.isEmpty());
+    }
+}
+        
+        
+    
+
+
+
+
+
+        
+    
